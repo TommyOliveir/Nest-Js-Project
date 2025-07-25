@@ -105,3 +105,13 @@ Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
 Use when creating modules and autmatic import to appmodule
 
 - nest g module <nameOfmodule>
+
+## docker
+docker compose up dev-db -d
+docker ps
+docker log <hashnumber> 
+
+## Install Prisma 
+yarn add -D prisma@latest
+yarn add @prisma/client
+npx prisma init
